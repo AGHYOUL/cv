@@ -58,45 +58,22 @@
 				</div>
 					       
 			</div>
-			<form>
-  <input type="text" name="nom" />
-   
-
-    <input type="text" value="Entrez un texte" />
-
-    <br /><br />
-
-    <input type="submit" value="Submit !" />
-
-    <input type="reset" value="Reset !" />
-
-</form>
-
-  
-
-<script>
-
-    var myForm = document.getElementById('myForm');
-
-  
-
-    myForm.addEventListener('submit', function(e) {
-
-        alert('Vous avez envoyé le formulaire !\n\nMais celui-ci a été bloqué pour que vous ne changiez pas de page.');
-
-        e.preventDefault();
-
-    });
-
-  
-
-    myForm.addEventListener('reset', function(e) {
-
-        alert('Vous avez réinitialisé le formulaire !');
-
-    });
-
-</script>
+	<SCRIPT language="javascript">
+function choixprop(form3) {
+if (form3.choix[0].checked) { alert("Vous avez choisi la proposition " + form3.choix[0].value) };
+if (form3.choix[1].checked) { alert("Vous avez choisi la proposition " + form3.choix[1].value) };
+if (form3.choix[2].checked) { alert("Vous avez choisi la proposition " + form3.choix[2].value) };
+}
+</SCRIPT>
+</HEAD>
+<BODY>
+Entrez votre choix :
+<FORM NAME="form3">
+<INPUT TYPE="radio" NAME="choix" VALUE="1">Choix numéro 1<BR>
+<INPUT TYPE="radio" NAME="choix" VALUE="2">Choix numéro 2<BR>
+<INPUT TYPE="radio" NAME="choix" VALUE="3">Choix numéro 3<BR>
+<INPUT TYPE="button"NAME="but" VALUE="Quel et votre choix ?" onClick="choixprop(form3)">
+</FORM> 
 
 	</body>
 </html>
