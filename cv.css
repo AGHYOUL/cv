@@ -1,9 +1,9 @@
-section{
+.section{
 	margin-bottom: 70px;
 }
-sec-gauche{
+.sec-gauche{
 	float: left;
 }
-sec-droite{
+.sec-droite{
 	margin-left: 150px;
 }
