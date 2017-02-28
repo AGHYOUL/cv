@@ -6,6 +6,11 @@
 	
 	<link rel="stylesheet" href="cv.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script language="javascript" type="text/javascript">
+  	function afficher(id) {
+  	$(id).toggle()
+ 	 }
+  </script>
 	</head>
 	<body>
 		<div class= "info">
@@ -17,7 +22,7 @@
 		</div>
 	
 			<div class= "section">
-				<h1>FORMATION <button style="font-size: 50%;" onclick="afficher('id_du_div');">cacher</button> </h1>
+				<h1>FORMATION <button style="font-size: 50%;" onclick="afficher('#FORMATION');">cacher</button> </h1>
 				<div id="FORMATION">
 				<div class= "sec-gauche">
 					<p><strong>2016/2017</strong></p>
