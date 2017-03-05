@@ -30,6 +30,9 @@
 	margin-top:0px;
 	margin-bottom:17px;
 }
+#forma1-gauche p{
+	margin-bottom:67px;
+}
 
 .duree{
 	font-weight: lighter;
@@ -54,19 +57,22 @@ h2{
 	border-bottom: 2px solid #9933CC;
 }
 #exp-gauche p{
-	margin-top:22px;
+	margin-top:1px;
 }
 #exp1-gauche p{
-	margin-top:34px;
+	margin-top:36px;
 }
 #exp2-gauche p{
-	margin-top:133px;
+	margin-top:127px;
 }
 #exp3-gauche p{
 	margin-top:17px;
 }
 #exp4-gauche p{
-	margin-top:87px;
+	margin-top:92px;
+}
+#lang-gauche p{
+	margin-top:0px;
 }
 body{
 	background-color: #cccccc;
